@@ -60,20 +60,32 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-/* Title image */
+/* banner image */
+
+.title-container {
+  text-align:center;
+}
+/* Title Container */
 
 #title-image {
   width: 55%;
   transform: rotate(30deg);
-  margin-left: 150px;
+  /* margin-left: 150px; */
 
+}
+@media (max-width: 900px){
+  #title-image{
+    transform: rotate(0);
+    text-align: center;
+
+  }
 }
 
 /* features */
 
 #features {
   margin-top: 8.5%;
-  margin-bottom: -30%;
+  margin-bottom: -20%;
   padding: 7% 15%;
   background-color: #fff;
   position:relative;
@@ -129,4 +141,27 @@ p {
 
 .pricing-column{
   padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/* Footer */
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-socials{
+  margin: 2%;
+  color:black;
 }
